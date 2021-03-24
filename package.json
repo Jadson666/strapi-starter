@@ -8,13 +8,16 @@
     "postinstall": "cd plugins/wysiwyg && npm install",
     "start": "strapi start",
     "build": "strapi build",
+    "postbuild": "node injectEnv.js",
     "strapi": "strapi",
     "strapi:migrate": "typeorm migration:run"
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^8.2.0",
     "knex": "0.21.18",
     "mysql": "2.18.1",
+    "node-html-parser": "^3.1.2",
     "strapi": "3.5.3",
     "strapi-admin": "3.5.3",
     "strapi-connector-bookshelf": "3.5.3",
