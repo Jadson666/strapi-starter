@@ -8,7 +8,7 @@ use Node `12.21.0`
 
 ***
 
-#how to migrate
+### how to migrate
 
 1. create `.env` file in root folder, add following variables
    1. to migrate with existing database
