@@ -15,7 +15,7 @@ use Node `12.21.0`
    2. create admin user in database
    3. upload files to S3 when click `upload files`
 
-#### available env variable
+#### available env variable(here only list var for this project, for more offical nev variable, please see [here](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/configurations.html#environment))
 | Env variable name  |  example  | explanation |
 |---|---|---|
 |DATABASE_HOST| 127.0.0.1|host of your database
